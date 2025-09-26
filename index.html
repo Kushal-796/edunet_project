@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vakada Kushal | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Pacifico&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://unpkg.com/framer-motion/dist/framer-motion.umd.js"></script>
+</head>
+<body>
+  <div class="main-container">
+  <header class="main-header">
+    <div class="logo">VK<span class="dot">.</span></div>
+    <nav>
+      <ul>
+        <li><a href="#" class="nav-link active" data-scroll="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-scroll="about">About</a></li>
+        <li><a href="#skills" class="nav-link" data-scroll="skills">Skills</a></li>
+        <li><a href="#projects" class="nav-link" data-scroll="projects">Projects</a></li>
+        <li><a href="#contact" class="nav-link" data-scroll="contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="btn-cv">Download CV</a>
+  </header>
+
+  <section class="hero-modern">
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="hero-intro">
+          <span class="hero-hi">Hi! I Am</span>
+          <span class="hero-name"><span>Vakada</span> <span class="accent">Kushal</span>.</span>
+        </div>
+        <div class="hero-experience">
+          <span class="exp-num">01</span>
+          <span class="exp-label">YEAR<br>EXPERIENCE</span>
+        </div>
+        <div class="hero-socials">
+          <a href="mailto:your@email.com" title="Email" class="hero-social-icon" target="_blank" rel="noopener">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2d6a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="4"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/yourprofile" title="LinkedIn" class="hero-social-icon" target="_blank" rel="noopener">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2d6a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><line x1="16" y1="11" x2="16" y2="16"/><line x1="12" y1="11" x2="12" y2="16"/><line x1="8" y1="11" x2="8" y2="16"/><circle cx="8" cy="8" r="1"/></svg>
+          </a>
+          <a href="tel:+1234567890" title="Phone" class="hero-social-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2d6a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.72 19.72 0 0 1 3.08 5.18 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.72c.13.81.37 1.6.7 2.34a2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6.29 6.29l1.27-1.27a2 2 0 0 1 2.11-.45c.74.33 1.53.57 2.34.7A2 2 0 0 1 22 16.92z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-center">
+        <div class="hero-img-circle">
+          <img src="assets/profile.jpg" alt="Vakada Kushal" class="hero-profile-img">
+        </div>
+        <svg class="hero-dash" width="180" height="80"><path d="M10,70 Q90,10 170,70" stroke="#2b5c5b88" stroke-width="2" fill="none" stroke-dasharray="6 8"/></svg>
+      </div>
+      <div class="hero-right">
+        <div class="hero-tagline">I design beautifully simple things,<br>and I love what I do.</div>
+        <!-- <div class="hero-review-card">
+          <div class="review-title">12k Reviews On <span class="review-stars">★★★★★</span></div>
+          <div class="review-avatars">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="user1">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="user2">
+            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="user3">
+            <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="user4">
+          </div>
+          <div class="review-score">4.9</div>
+        </div> -->
+        <div class="hero-creative"><span>Creative</span> <span class="accent">Developer.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about section-bg" id="about">
+    <div class="bio-card">
+      <h2 class="about-title">
+        <span class="about-icon">💡</span> About <span class="about-accent">Me</span>
+      </h2>
+      <div class="about-details">
+        <p class="about-main"><span class="about-strong">I’m a B.Tech Computer Science student (2023–2027)</span> at <span class="about-accent">Gokaraju Rangaraju Institute of Engineering and Technology</span> with a <span class="about-strong">CGPA of 8.43</span>.</p>
+        <p class="about-interest">My interests lie in <span class="about-accent">Full Stack Web Development</span>, <span class="about-accent">Mobile App Development</span>, and <span class="about-accent">Scalable Software Solutions</span>.</p>
+        <p class="about-courses">I’ve also pursued coursework in <span class="about-strong">Data Structures</span>, <span class="about-strong">Algorithms</span>, <span class="about-strong">Probability</span>, <span class="about-strong">Statistics</span>, <span class="about-strong">Linear Algebra</span>, and <span class="about-strong">Database Systems</span>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =======================
+       Skills Section 
+  ======================= -->
+  <section id="skills" class="skills-section">
+    <div class="skills-container">
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <p class="section-subtitle">Technologies I use to design, build & deploy creative solutions.</p>
+      <div class="skills-table">
+        <div class="skills-row">
+          <div class="skills-label">Languages:</div>
+          <div class="skills-list">JAVA, C, Python, SQL, R, Dart, C#</div>
+        </div>
+        <div class="skills-row">
+          <div class="skills-label">Mobile and Web:</div>
+          <div class="skills-list">HTML, CSS, JavaScript, React, Flutter, Android SDK, Framer-motion, GSAP</div>
+        </div>
+        <div class="skills-row">
+          <div class="skills-label">Technologies:</div>
+          <div class="skills-list">Firebase, PHP, XML, Angular, Prisma</div>
+        </div>
+        <div class="skills-row">
+          <div class="skills-label">Tools:</div>
+          <div class="skills-list">Visual Studio Code, Android Studio, Git, Figma, Razorpay</div>
+        </div>
+        <div class="skills-row">
+          <div class="skills-label">Soft Skills:</div>
+          <div class="skills-list">Remote Collaboration, Time Management, Team Leadership</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =======================
+       Projects Section 
+  ======================= -->
+  <section id="projects" class="projects-section">
+    <div class="projects-container">
+      <h2 class="section-title">My <span>Projects</span></h2>
+      <p class="section-subtitle">A selection of my favorite work, blending creativity and functionality.</p>
+
+      <div class="projects-grid">
+        <!-- Project Card: LaunchFlow -->
+        <div class="project-card">
+          <div class="project-content">
+            <h3>🚀 LaunchFlow</h3>
+            <p><b>I developed LaunchFlow</b>, an AI-powered SaaS platform that automated business workflows using React, Firebase, and Razorpay. The system supported secure authentication, real-time usage tracking, and subscription management, while also integrating third-party payment systems. This project focused on building scalable and modular solutions that enable operational efficiency and fast deployment.</p>
+            <div class="project-links">
+              <a href="#" target="_blank">🔗 Live Demo</a>
+              <a href="#" target="_blank">💻 GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card: Elevate-Labs -->
+        <div class="project-card">
+          <div class="project-content">
+            <h3>📊 Elevate-Labs</h3>
+            <p>With <b>Elevate-Labs</b>, I designed a responsive web application using React, TypeScript, and Tailwind CSS. The platform emphasized clean, component-based architecture and scalable UI modules. By incorporating custom animations and real-time feedback features, the system demonstrated how user-friendly interfaces can align with robust backend structures.</p>
+            <div class="project-links">
+              <a href="#" target="_blank">🔗 Live Demo</a>
+              <a href="#" target="_blank">💻 GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card: GenLib -->
+        <div class="project-card">
+          <div class="project-content">
+            <h3>📚 GenLib</h3>
+            <p>In <b>GenLib</b>, I transformed traditional library operations by creating a digital system where students could manage lending and returns through QR codes. The admin dashboard streamlined approvals, automated book status updates, and enhanced operational scaling, reducing manual effort and improving process accuracy.</p>
+            <div class="project-links">
+              <a href="#" target="_blank">🔗 Live Demo</a>
+              <a href="#" target="_blank">💻 GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card: Yield Predictor -->
+        <div class="project-card">
+          <div class="project-content">
+            <h3>🌾 Yield Predictor</h3>
+            <p>Designed a <b>Python-based ML pipeline</b> for predicting agricultural yield using pandas and scikit-learn. Implemented data preprocessing, model training, and evaluation with scope for frontend integration.</p>
+            <div class="project-links">
+              <a href="#" target="_blank">🔗 Live Demo</a>
+              <a href="#" target="_blank">💻 GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card: Hotel Management System -->
+        <div class="project-card">
+          <div class="project-content">
+            <h3>🏨 Hotel Management System</h3>
+            <p>For the <b>Hotel Management System</b>, I built a desktop application that automated room bookings, check-ins, billing, and service integration. This solution streamlined hotel operations by improving process accuracy and reducing manual intervention, thereby enhancing the customer experience and supporting workflow automation.</p>
+            <div class="project-links">
+              <a href="#" target="_blank">🔗 Live Demo</a>
+              <a href="#" target="_blank">💻 GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card: Electronic Voting Machine -->
+        <div class="project-card">
+          <div class="project-content">
+            <h3>🗳️ Electronic Voting Machine</h3>
+            <p>I also created an <b>Electronic Voting Machine</b> using C that provided secure, transparent, and fraud-resistant election processes. The system automated voter authentication, election management, and results declaration, ensuring fairness and minimizing human errors in critical workflows.</p>
+            <div class="project-links">
+              <a href="#" target="_blank">🔗 Live Demo</a>
+              <a href="#" target="_blank">💻 GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact section-bg" id="contact">
+    <div class="contact-card">
+      <h2>Contact</h2>
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <div class="social-links">
+        <a href="mailto:kushal.vakada@gmail.com" aria-label="Email" class="contact-social-icon" target="_blank" rel="noopener">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2d6a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="4"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/kushal-vakada/" target="_blank" aria-label="LinkedIn" class="contact-social-icon" rel="noopener">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2d6a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><line x1="16" y1="11" x2="16" y2="16"/><line x1="12" y1="11" x2="12" y2="16"/><line x1="8" y1="11" x2="8" y2="16"/><circle cx="8" cy="8" r="1"/></svg>
+        </a>
+        <a href="tel:+919494342425" aria-label="Phone" class="contact-social-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2d6a4f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.72 19.72 0 0 1 3.08 5.18 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.72c.13.81.37 1.6.7 2.34a2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6.29 6.29l1.27-1.27a2 2 0 0 1 2.11-.45c.74.33 1.53.57 2.34.7A2 2 0 0 1 22 16.92z"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made by Vakada Kushal</p>
+  </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
